@@ -30,6 +30,9 @@
                     },
                     fontFamily: {
                         manrope: ["Manrope", "sans-serif"],
+                    },
+                    backgroundImage: {
+                        'about-bg': "url('assets/vector.png')",
                     }
                 }
             }
@@ -42,7 +45,7 @@
 <!-- Header section starts here -->
     <header class="bg-gradient-to-t from-[#ffffff] to-[#ebebeb]">
         <!-- Navbar starts here -->
-        <nav class="py-6">
+        <nav class="px-3 md:px-6">
             <div class="navbar">
                 <div class="navbar-start">
                     <a href="#" class="flex items-center gap-2">
@@ -81,11 +84,11 @@
             </div>
         </nav>
         <!-- Hero section starts here -->
-        <div>
+        <div class="px-3 md:px-6">
             <div>
                 <img src="assets/banner.png" class="mx-auto" alt="">
             </div>
-            <div class="hero-content text-center mx-auto">
+            <div class="hero-content text-center mx-auto mt-6">
                 <div class="md:w-4/5 mx-auto">
                     <h1 class="text-4xl md:text-5xl lg:6xl font-extrabold mb-4 text-[#212121]">A barn house of this design has a striking appearance</h1>
                     <p class="py-6 mb-6 text-[#494949]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
@@ -98,7 +101,45 @@
 
 <!-- Main section starts here -->
     <main>
-
+        <!-- About section starts here -->
+         <section class="mt-16 md:24 lg:mt-32 bg-[#F4F4F4] pt-6">
+            <div class="bg-[#F4F4F4] bg-about-bg bg-no-repeat bg-auto bg-left-top pt-16 pb-24 px-3 md:px-6 ">
+                <div class="flex flex-col-reverse lg:flex-row-reverse items-center gap-6 md:gap-12 lg:gap-24">
+                    <img src="assets/rectangle.png" class="w-full md:w-full h-80 md:h-[450px] lg:h-full"/>
+                    <div>
+                        <div class="flex flex-col items-center lg:block">
+                            <button class="bg-white px-6 py-3 mb-8 rounded-[24px] font-bold"><i class="fa-solid fa-arrow-right-long mr-3 rounded-full"></i>About Us</button>
+                            <div class="text-center lg:text-left">
+                                <h2 class="text-3xl md:text-4xl font-extrabold">We design thoughtful,<br> liveable spaces</h2>
+                                <p class="py-6 mb-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                            </div>
+                        </div>
+                        <div class="space-y-6 md:space-y-0 lg:space-y-3 md:flex md:gap-6 lg:flex-col">
+                            <div class="flex md:items-center gap-6 p-6 bg-white rounded-2xl">
+                                <div>
+                                    <img src="assets/commercial.png" alt="">
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-extrabold mb-3">Commercial</h4>
+                                    <p class="font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+                                </div>
+                            </div>
+                            <div class="flex md:items-center gap-6 p-6 bg-white rounded-2xl">
+                                <div>
+                                    <img src="assets/residential.png" alt="">
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-extrabold mb-3">Residential</h4>
+                                    <p class="font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+                                </div>
+                            </div>
+ 
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- About section ends here -->
     </main>
 <!-- Main section ends here -->
 
